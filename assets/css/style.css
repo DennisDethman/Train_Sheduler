@@ -1,0 +1,34 @@
+html{
+    background-color: #8D938F;
+}
+
+
+body {
+    background-color: #8D938F;
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+    height: 900px;
+    max-width: 800px;
+}
+
+.main {
+/*    font-family: tempo bold extended;*/
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+    height: 90px;
+    align-content: center
+}
+
+.where {
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+}
