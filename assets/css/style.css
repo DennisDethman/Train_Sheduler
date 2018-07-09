@@ -1,10 +1,12 @@
 html{
-    background-color: #8D938F;
+/*    background-color: #17d346;*/
 }
 
 
 body {
-    background-color: #8D938F;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    background-color: rgba(121, 121, 121, 0.21);
     background-size:auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +14,7 @@ body {
 }
 
 .container{
-    height: 900px;
+    height: 100vh;
     max-width: 800px;
 }
 
@@ -20,15 +22,31 @@ body {
 /*    font-family: tempo bold extended;*/
     font-size: 60px;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 35px;
+    margin-top: 15px;
     height: 90px;
-    align-content: center
+    align-content: center;
+    border-bottom: 2px black solid
 }
 
 .where {
     text-align: center;
 }
 
-p {
-    font-size: 35px;
+
+.panel-title {
+    margin-bottom: 20px;
+}
+h3 {
+    color:  #4b4848;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+#train {
+    margin-top: 20px;
+    text-align: center;
+}
+#table {
+    font-size: 16px;
 }

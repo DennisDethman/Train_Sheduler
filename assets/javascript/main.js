@@ -64,7 +64,7 @@ $("#clearButton").on("click", function (){
     
  
     //clear Firebase on exit 
-database.ref('train_data').onDisconnect().remove();
+//database.ref('train_data').onDisconnect().remove();
     
 
 //****************************************************************************************************
@@ -114,8 +114,8 @@ trainRef.on("child_added", function(anything) {
 
 });
 
-//clear Firebase on exit 
-//database.ref('train_data').onDisconnect().remove();
+
+
 //remove(onComplete) 
 
 
